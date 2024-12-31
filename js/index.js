@@ -1,6 +1,8 @@
 function init() {
     import("./index.header-text.js");
     import("./index.header-clock.js");
+    import("./index.product-carousel.js");
+    import("./index.product-list.js");
   }
   
   const totalPartials = document.querySelectorAll(

@@ -16,4 +16,4 @@ function updateGreet() {
 const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
 headerTitle.innerText = randomGreeting;
 }
-setInterval(updateGreet, 1);
+setInterval(updateGreet, 1000);
